@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scholarship Application (Demo)</title>
+<style>
+body{margin:0;background:#F1F8F6;color:#0B1A1E;font:16px/1.5 Arial,sans-serif}
+header{background:#0B1A1E;color:#fff;padding:14px 20px}header b{color:#E8702A}
+main{max-width:620px;margin:18px auto;background:#fff;border:1px solid #D5E4DF;border-radius:12px;padding:20px}
+label{display:block;font-weight:700;margin-top:12px}
+input,select{width:100%;padding:10px;margin-top:4px;border:1px solid #9DB5AE;border-radius:8px;font-size:16px}
+button{margin-top:18px;background:#E8702A;border:0;border-radius:10px;padding:12px 24px;font-weight:700;font-size:16px;cursor:pointer}
+.note{background:#E6F4F0;border-radius:8px;padding:8px 12px;font-size:14px}
+#ok{display:none;margin-top:14px;background:#E6F4F0;padding:12px;border-radius:8px;font-weight:700}
+</style></head><body>
+<header><b>Demo</b> · National Scholarship Application Form (practice copy, not a real portal)</header>
+<main>
+<p class="note">Practice form for the Matsya demo. Nothing here is sent anywhere.</p>
+<form id="f">
+<label for="name">Full name</label><input id="name" name="name">
+<label for="email">Email</label><input id="email" name="email" type="email">
+<label for="mobile">Mobile number</label><input id="mobile" name="mobile">
+<label for="state">State of domicile</label>
+<select id="state" name="state"><option value="">Select</option><option>Karnataka</option><option>Tamil Nadu</option><option>Kerala</option><option>Maharashtra</option><option>Other</option></select>
+<label for="category">Category</label>
+<select id="category" name="category"><option value="">Select</option><option>General</option><option>OBC</option><option>SC</option><option>ST</option><option>EWS</option></select>
+<label for="course">Course</label><input id="course" name="course">
+<label for="year">Year of study</label>
+<select id="year" name="year"><option value="">Select</option><option>1</option><option>2</option><option>3</option><option>4</option></select>
+<label for="marks">Marks in last exam (%)</label><input id="marks" name="marks" type="number">
+<label for="income">Annual family income (₹)</label><input id="income" name="income" type="number">
+<button type="submit" id="submit">Submit application</button>
+<div id="ok">Submitted (demo only). Nothing was sent.</div>
+</form></main>
+<script>document.getElementById('f').onsubmit=function(e){e.preventDefault();document.getElementById('ok').style.display='block'}</script>
+</body></html>

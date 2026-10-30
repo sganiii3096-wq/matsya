@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Karnataka SSP Scholarships",
+    "score": 70,
+    "reason": "Karnataka OBC and Technical Education post-matric schemes are plausible for a B.Tech student, but eligibility varies by department, so confirm which one fits.",
+    "deadline": "31/10/2026",
+    "source_url": "https://ssp.karnataka.gov.in",
+    "checked_at": "30 Oct 2026 13:26"
+  },
+  {
+    "name": "NSP Central Sector Scheme",
+    "score": 45,
+    "reason": "The PM YASASVI school-level scheme doesn't fit a B.Tech student, so only the college-level and other NSP schemes might apply, and their eligibility details aren't shown on the verified page.",
+    "deadline": "31-10-2026",
+    "source_url": "https://scholarships.gov.in/All-Scholarships",
+    "checked_at": "30 Oct 2026 13:30"
+  },
+  {
+    "name": "AICTE Student Development Schemes",
+    "score": 1,
+    "reason": "The listed scheme (AICTE Post-Doctoral Fellowship) is for PhD holders, not B.Tech students, and its deadline has already passed.",
+    "deadline": "16 October, 2026",
+    "source_url": "https://aicte.gov.in/schemes/students-development-schemes",
+    "checked_at": "30 Oct 2026 13:32"
+  }
+]
